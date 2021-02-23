@@ -9,3 +9,6 @@ my_info = {"name": "Rex",
 print(f'Hello I am {my_info["name"]} and I am a {my_info["occupation"]}')
 print(f'I have {len(my_info["hobbies"])} hobbies!')
 print(f'On the weekend I get up at {my_info["wake-up"]["Saturday"]}')
+
+my_info["hobbies"].append("Dancing")
+print(f'I have {len(my_info["hobbies"])} hobbies!')

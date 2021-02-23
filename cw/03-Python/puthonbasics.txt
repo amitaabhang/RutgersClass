@@ -1,0 +1,44 @@
+list
+listname = ["",1,"",false]
+list.append() - add values
+list.remove("byval")
+list.pop(index)
+tuple= () immutable
+
+for loop
+for item in list/Range(10)/ Range(2,5)/ csv_reader:
+
+while loop
+while condition == true
+keep looping
+set the condition T/F
+
+read csv
+fpath = os.path.join("..","foldername","file.csv")
+with open(fpath , r) as variablereader
+ csv_reader= csv.reader(variablereader)
+next(csv_reader)- first roweturns header, or use to iterate to next row
+
+write csv
+
+fpath = os.path.join("..","Resources","filename.csv")
+with open(fpath, "w", newline="") varname
+ csv_writer = csv.Writer(varname)
+csv_writer.writerows("")
+
+zip used t combine lists
+list1=[]
+list2=[]
+lst3=[]
+zippeddata = zip(lst1,lst2,lst3)
+
+zip data and write file
+basic functions
+def funcationname(variables
+return variable
+
+Dictonay
+defined by {}
+or 
+variablename = dict() this funcc returns a dictonary
+

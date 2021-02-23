@@ -12,7 +12,11 @@ def print_percentages(wrestler_data):
     wins = int(wrestler_data[1])
     losses = int(wrestler_data[2])
     draws = int(wrestler_data[3])
-
+    print(name)
+    print(wins)
+    print(losses)
+    print(draws)
+    
     # Total matches can be found by adding wins, losses, and draws together
     total_matches = wins + losses + draws
 

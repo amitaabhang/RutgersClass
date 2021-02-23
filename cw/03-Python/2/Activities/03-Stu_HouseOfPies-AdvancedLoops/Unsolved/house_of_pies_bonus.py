@@ -31,4 +31,11 @@ print("------------------------------------------------------------------------"
 print("You purchased a total of " + str(len(pie_purchases)) + ".")
 i =0
 for selected_pie in pie_purchases:
-    print(pie_purchases[i] + str() +pie_list[i])
+    if(selected_pie != 0):
+        print( str(selected_pie) + " "+ str(pie_list[i]) )  
+        i=i+1
+    else:
+        i=i+1
+
+    #print(str(pie_purchases[i]) + str(selected_pie) + str(pie_list[i]))
+    #print(str(selected_pie) )
